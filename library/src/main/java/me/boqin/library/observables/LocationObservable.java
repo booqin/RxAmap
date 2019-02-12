@@ -53,6 +53,7 @@ public class LocationObservable extends Observable<AMapLocation> {
         mLocationOption.setOnceLocation(true);
         //设置是否允许模拟位置,默认为true，允许模拟位置
         mLocationOption.setMockEnable(true);
+        mLocationOption.setNeedAddress(true);
         //设置定位模式为高精度模式，Battery_Saving为低功耗模式，Device_Sensors是仅设备模式
         mLocationOption.setLocationMode(AMapLocationClientOption.AMapLocationMode.Hight_Accuracy);
         return mLocationOption;
