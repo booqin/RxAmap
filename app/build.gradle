@@ -44,4 +44,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     api project(':library')
+
+    implementation 'com.github.booqin.RuntimePermissions:runtime-permission:1.2.4'
+    annotationProcessor 'com.github.booqin.RuntimePermissions:compiler:1.2.4'
 }
